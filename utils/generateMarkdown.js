@@ -151,9 +151,9 @@ ${answers.test}
 
 ## Questions
 
-<a href="https://github.com/${answers.github}">Github</a>
+<a href="https://github.com/${answers.github}">Github for ${answers.github}</a>
 
-<a href="mailto:${answers.email}">Email</a>
+<a href="mailto:${answers.email}">Send me an email if you have any questions.</a>
 ${renderLicenseSection(answers.lic)}
 `;
 }
