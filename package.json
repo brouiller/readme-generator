@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Asks questions and generates a README.md file from the answers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brouiller/readme-generator.git"
+  },
+  "author": "Bradley Kimbrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brouiller/readme-generator/issues"
+  },
+  "homepage": "https://github.com/brouiller/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
