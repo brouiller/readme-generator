@@ -1,5 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generate = require("./utils/generateMarkdown");
 
 inquirer
   .prompt([
@@ -69,7 +70,7 @@ inquirer
                 "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
               break;
             case "None":
-              licBadge = "0 - 59";
+              licBadge = "";
               break;
           }
     fs.appendFile(
