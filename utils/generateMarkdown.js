@@ -48,8 +48,6 @@ function renderLicenseSection(license) {
   switch (license) {
     case "MIT":
       return `
-<a href="license"></a>
-
 ## License
 
 This application is covered under the [${license}]${renderLicenseLink(
@@ -58,8 +56,6 @@ This application is covered under the [${license}]${renderLicenseLink(
       break;
     case "APACHE 2.0":
       return `
-<a href="license"></a>
-
 ## License
 
 This application is covered under the [${license}]${renderLicenseLink(
@@ -68,8 +64,6 @@ This application is covered under the [${license}]${renderLicenseLink(
       break;
     case "GPL 3.0":
       return `
-<a href="license"></a>
-
 ## License
 
 This application is covered under the [${license}]${renderLicenseLink(
@@ -78,8 +72,6 @@ This application is covered under the [${license}]${renderLicenseLink(
       break;
     case "BSD 3":
       return `
-<a href="license"></a>
-
 ## License
 
 This application is covered under the [${license}]${renderLicenseLink(
@@ -123,31 +115,21 @@ ${answers.desc}
 - [Questions](#questions)
 ${renderLicenseTableOfContents(answers.lic)}
 
-<a href="installation"></a>
-
 ## Installation
 
 ${answers.instr}
-
-<a href="usage"></a>
 
 ## Usage
 
 ${answers.usage}
 
-<a href="contributing"></a>
-
 ## Contributing
 
 ${answers.contr}
 
-<a href="tests"></a>
-
 ## Tests
 
 ${answers.test}
-
-<a href="questions"></a>
 
 ## Questions
 
