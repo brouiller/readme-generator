@@ -24,7 +24,11 @@ install node, install inquirer library with npm, run 'node index.js' from root d
 
 ## Usage
 
-Used to create high quality README files in markdown
+Used to create high quality README files in markdown. See animated GIF below.
+
+<img src='./readme-generator.gif' alt='gif of the program in action'>
+
+For a better resolution version, <a href='https://watch.screencastify.com/v/ox7C3VqihgrsjN1ToCNf'>Click here</a>
 
 ## Contributing
 
